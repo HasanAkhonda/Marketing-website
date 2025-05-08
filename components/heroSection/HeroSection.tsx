@@ -1,10 +1,10 @@
 const HeroSection = () => {
     return (
-      <section className="w-full flex flex-col gap-12 bg-gradient-to-br from-[#1a0533] to-[#0a0118] text-white px-4 py-16">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+      <section className="w-full flex flex-col gap-12 bg-gradient-to-br from-[#1a0533] to-[#0a0118] text-white">
+        <div className="max-w-7xl mx-5 md:mx-auto flex flex-col md:flex-row gap-5 my-16 md:my-32">
           {/* Left Text Content */}
           <div className="text-left">
-            <h1 className="font-inter font-bold text-[42px] sm:text-[64px] md:text-[88px] leading-[110%] tracking-normal mb-6">
+            <h1 className="font-inter font-bold text-5xl sm:text-6xl md:text-8xl leading-[110%] tracking-normal mb-6">
               Website <br />
               <span className="text-orange-400">Creation & SEO</span> <br />
               Made Easy
@@ -14,14 +14,14 @@ const HeroSection = () => {
             </p>
             <a
               href="#schedule"
-              className="inline-block bg-orange-400 hover:bg-orange-500 text-white font-semibold py-3 px-6 rounded-[4px] text-base sm:text-lg transition"
+              className="inline-block bg-orange-400 hover:bg-orange-500 text-white text-center font-semibold py-3 px-6 rounded-[4px] w-full md:w-fit text-base sm:text-lg transition"
             >
               Schedule Call →
             </a>
           </div>
   
           {/* Right Side: Video */}
-          <div className="relative w-full md:w-[756px]">
+          <div className="relative w-full mt-16  md:max-w-3xl">
             {/* Decorative starburst */}
             <div className="absolute -top-4 -left-4 text-orange-400 text-3xl md:text-4xl rotate-12 z-10">
               ★
