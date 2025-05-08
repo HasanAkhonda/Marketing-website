@@ -3,6 +3,7 @@ import React from 'react';
 const ContactUs = () => {
   return (
     <section
+    id='Contact'
       className="w-full"
       style={{
         background: `linear-gradient(130.48deg, rgba(237, 227, 254, 0.6) 0.52%, rgba(255, 255, 255, 0.6) 51.91%, rgba(237, 227, 254, 0.6) 100.01%)`,

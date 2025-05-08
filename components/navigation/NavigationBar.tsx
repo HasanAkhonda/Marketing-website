@@ -69,30 +69,32 @@ const Navigation = () => {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-md">
-          <ul className="flex flex-col items-center space-y-4 py-4 font-semibold text-gray-800">
-            {menuItem.map((menu, index) => (
-              <li key={index}>
-                <a
-                  href={`#${menu.link}`}
-                  className="hover:text-purple-600"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {menu.item}
-                </a>
-              </li>
-            ))}
-            <li>
-              <a
-                href="#get-started"
-                className="inline-block px-4 py-2 bg-purple-700 text-white rounded-md hover:bg-purple-800 transition"
-              >
-                Get Started
-              </a>
-            </li>
-          </ul>
-        </div>
-      )}
+  <div className="md:hidden bg-white shadow-md w-full absolute z-60 px-6 py-4">
+    <ul className="flex flex-col space-y-4 font-semibold text-gray-800">
+      {menuItem.map((menu, index) => (
+        <li key={index}>
+          <a
+            href={`#${menu.link}`}
+            className="block w-full text-left py-2 px-2 rounded  border-gray-200 border-b-2 transition"
+            onClick={() => setIsOpen(false)}
+          >
+            {menu.item}
+          </a>
+        </li>
+      ))}
+      <li>
+        <a
+          href="#get-started"
+          className="block w-full text-center bg-purple-700 hover:text-purple-800 text-white py-3 rounded-md hover:bg-purple-800 transition"
+          onClick={() => setIsOpen(false)}
+        >
+          Get Started
+        </a>
+      </li>
+    </ul>
+  </div>
+)}
+
     </header>
   );
 };
