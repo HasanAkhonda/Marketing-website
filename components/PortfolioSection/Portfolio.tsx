@@ -39,7 +39,7 @@ const Portfolio = () => {
                     </div>
                 </section>
                 <span className="flex items-center">
-                    <span className="h-px flex-1 bg-gray-300"></span>
+                    <span className="h-px flex-1 bg-white/30"></span>
                 </span>
                 <section className='flex flex-col md:flex-row m-auto gap-20'>
                     <div className="flex m-auto w-full md:w-1/3 border-8 border-white/40 mt-6 rounded-3xl">
@@ -68,7 +68,7 @@ const Portfolio = () => {
                     </div>
                 </section>
                 <span className="flex items-center">
-                    <span className="h-px flex-1 bg-gray-300"></span>
+                    <span className="h-px flex-1 bg-white/30"></span>
                 </span>
                 <section className='flex flex-col md:flex-row m-auto gap-20'>
                     <div className="flex m-auto w-full md:w-1/3 border-8 border-white/40 rounded-3xl mt-6">
