@@ -3,12 +3,12 @@ import React from 'react';
 const ContactUs = () => {
   return (
     <section
-      className="w-full px-4 py-16"
+      className="w-full"
       style={{
         background: `linear-gradient(130.48deg, rgba(237, 227, 254, 0.6) 0.52%, rgba(255, 255, 255, 0.6) 51.91%, rgba(237, 227, 254, 0.6) 100.01%)`,
       }}
     >
-      <div className="bg-white rounded shadow-md mx-auto w-full max-w-5xl px-6 md:px-16 py-12">
+      <div className="bg-white rounded shadow-md max-w-5xl mx-5 md:mx-auto my-8 md:my-24 px-4 py-6 md:py-12 md:px-16">
         <h2 className="font-bold text-center text-[32px] sm:text-[40px] md:text-[48px] mb-12">
           Contact Us Today
         </h2>
