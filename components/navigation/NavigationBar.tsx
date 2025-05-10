@@ -1,6 +1,6 @@
 'use client'
-import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { useState } from "react";
 
 interface MenuProps {
   item: string;

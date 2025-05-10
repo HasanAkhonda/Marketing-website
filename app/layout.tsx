@@ -1,8 +1,8 @@
+import Footer from "@/components/Footer/Footer";
 import NavigationBar from "@/components/navigation/NavigationBar";
 import { AppConfig } from "@/config/app.config";
 import type { Metadata } from "next";
 import "./globals.css";
-import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: AppConfig().app.name,
