@@ -22,8 +22,8 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between p-4 relative">
         {/* Logo (left) */}
         <div className="flex items-center space-x-2">
-          <img src="/logo.svg" alt="Logo" className="h-8 w-8" />
-          <span className="text-xl font-bold text-gray-800">SJO Marketing</span>
+          <img src="/CompanyLogo.svg" alt="Logo" className="w-full" />
+           
         </div>
 
         {/* Centered Menu (desktop only) */}
