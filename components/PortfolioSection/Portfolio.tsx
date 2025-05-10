@@ -72,8 +72,8 @@ const Portfolio = () => {
                         <Image
                             className="aspect-square  w-full h-full object-cover rounded-2xl"
                             src="/Portfolio1.jpg"
-                            width={30000}
-                            height={20000}
+                            width={300}
+                            height={200}
                             alt="profilepic"
                         />
                     </div>
