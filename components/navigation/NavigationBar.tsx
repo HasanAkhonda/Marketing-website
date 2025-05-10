@@ -9,7 +9,7 @@ interface MenuProps {
 
 const menuItem: MenuProps[] = [
   { item: "Home", link: "home" },
-  { item: "Portfolio", link: "portfolio" },
+  { item: "Portfolio", link: "ortfolio" },
   { item: "FAQ", link: "faq" },
   { item: "Contact", link: "contact" },
 ];

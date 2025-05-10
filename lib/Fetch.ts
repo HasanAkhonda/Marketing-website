@@ -13,7 +13,7 @@ type AdapterOption = "fetch" | "axios";
  * Custom fetch class
  */
 export class Fetch {
-  private static _baseUrl = `${AppConfig().app.apiUrl}`;
+  private static _baseUrl = `${AppConfig.app.apiUrl}`;
   private static _adapter: AdapterOption = "axios";
 
   /**
